@@ -7,6 +7,16 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        primary: {
+          DEFAULT: '#756AB6',
+          dark: '#5e4fa2',
+        },
+        secondary: {
+          DEFAULT: '#AD88C6',
+          dark: '#8e6ca8',
+        },
+      }
     },
   },
   plugins: [
